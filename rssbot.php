@@ -3,9 +3,7 @@
 *
 * Fungsi: Menyampaikan Posting Blog Baru ke Grup/Kanal Telegram
 * Sumber Update Post: RSS Feed
-* Tutorial: https://wp.me/p5DRvJ-en
 * Versi PHP: 5. hingga 7. --dengan penyesuaian--
-* Contoh Hasil: Personal Blog Indonesia - https://t.me/narablog
 * Modifikasi Terakhir: 28 April 2019
 * Thanks to: @manzoorwanijk
 *
@@ -16,7 +14,7 @@ $token = 'ABCDEFGHIJKLMNOPQRTSUVWXYZ:1234567890';
 /* Isi Dengan Grup ID */
 $chat = '-1234567890';
 /* Sumber RSS Feed */
-$rss = 'https://feeds.feedburner.com/personalblogid';
+$rss = 'isi-dengan-url-feed';
 
 /* Log Disimpan */
 $log_file = 'bot-rss.log';
